@@ -8,14 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var userInput: String = "iqTHe"
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("नमस्कार, मंडळी!")
+            }
+            .padding()
+
+            Text(toDevnagiri(alphabetic: userInput))
+                .textSelection(.enabled)
+
+            TextField("Type here...", text: $userInput)
+                .padding(20)
+                
         }
-        .padding()
     }
 }
 

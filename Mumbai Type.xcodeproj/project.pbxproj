@@ -14,6 +14,8 @@
 		5EBFF0062953FCFF0040678A /* Mumbai_TypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFF0052953FCFF0040678A /* Mumbai_TypeTests.swift */; };
 		5EBFF0102953FCFF0040678A /* Mumbai_TypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFF00F2953FCFF0040678A /* Mumbai_TypeUITests.swift */; };
 		5EBFF0122953FCFF0040678A /* Mumbai_TypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFF0112953FCFF0040678A /* Mumbai_TypeUITestsLaunchTests.swift */; };
+		5EBFF021295409940040678A /* Devnagiri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFF020295409940040678A /* Devnagiri.swift */; };
+		5EBFF023295900470040678A /* DevnagiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBFF022295900470040678A /* DevnagiriTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		5EBFF00B2953FCFF0040678A /* Mumbai TypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mumbai TypeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EBFF00F2953FCFF0040678A /* Mumbai_TypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mumbai_TypeUITests.swift; sourceTree = "<group>"; };
 		5EBFF0112953FCFF0040678A /* Mumbai_TypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mumbai_TypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EBFF020295409940040678A /* Devnagiri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devnagiri.swift; sourceTree = "<group>"; };
+		5EBFF022295900470040678A /* DevnagiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevnagiriTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 			children = (
 				5EBFEFF32953FCFE0040678A /* Mumbai_TypeApp.swift */,
 				5EBFEFF52953FCFE0040678A /* ContentView.swift */,
+				5EBFF020295409940040678A /* Devnagiri.swift */,
 				5EBFEFF72953FCFF0040678A /* Assets.xcassets */,
 				5EBFEFF92953FCFF0040678A /* Mumbai_Type.entitlements */,
 				5EBFEFFA2953FCFF0040678A /* Preview Content */,
@@ -116,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				5EBFF0052953FCFF0040678A /* Mumbai_TypeTests.swift */,
+				5EBFF022295900470040678A /* DevnagiriTests.swift */,
 			);
 			path = "Mumbai TypeTests";
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 			files = (
 				5EBFEFF62953FCFE0040678A /* ContentView.swift in Sources */,
 				5EBFEFF42953FCFE0040678A /* Mumbai_TypeApp.swift in Sources */,
+				5EBFF021295409940040678A /* Devnagiri.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EBFF0062953FCFF0040678A /* Mumbai_TypeTests.swift in Sources */,
+				5EBFF023295900470040678A /* DevnagiriTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
